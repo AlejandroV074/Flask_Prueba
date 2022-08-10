@@ -1,0 +1,15 @@
+Para crear la aplicación se usa 
+
+1.
+python -m falsk run 
+(no cambio en tiempo real)
+
+2.
+if __name__ == "__main__":
+	app.run(debug=True)
+Ej:python -m app run
+
+(ejecutar) python (nombre).py
+
+Se recomienda usar 2. mientras se está 
+programando... en un futuro no.
