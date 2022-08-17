@@ -1,4 +1,5 @@
 from flask import Flask, render_template
+from decouple import config as config_decouple
 
 def create_app(enviroment):
     app = Flask(__name__)    
